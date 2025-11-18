@@ -109,6 +109,16 @@ body {
     position: relative;
 }
 
+.pular {
+    background: #d62828;
+    color: #d62828;
+    padding: 15px;
+    line-height: 1.3em;
+    font-size: 14px;
+    border-radius: 6px;
+    height: 130px;
+}
+
 .description {
     background: black;
     color: white;
