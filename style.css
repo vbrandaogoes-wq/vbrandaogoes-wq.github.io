@@ -1,0 +1,162 @@
+body {
+    background: #e8c9a7;
+    font-family: Arial, sans-serif;
+}
+
+/* Estrutura principal */
+.pokedex {
+    display: flex;
+    width: 900px;
+    margin: 40px auto;
+}
+
+/* Painel esquerdo */
+.left-panel {
+    background: #d62828;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    position: relative;
+}
+
+.camera {
+    width: 80px;
+    height: 80px;
+    background: #1e90ff;
+    border: 8px solid white;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.lights span {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.red { background: red; }
+.yellow { background: yellow; }
+.green { background: green; }
+
+.screen-border {
+    background: #ddd;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.screen {
+    background: black;
+    width: 80%;
+    height: 220px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bird-img {
+    width: 150px;
+    border-radius: 4px;
+}
+
+.label {
+    margin-top: 15px;
+    background: #9acd32;
+    padding: 8px;
+    width: 140px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.controls {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.blue-btn {
+    width: 40px;
+    height: 20px;
+    background: #1e90ff;
+    border-radius: 5px;
+}
+
+.bar {
+    width: 60px;
+    height: 10px;
+    background: #555;
+    border-radius: 5px;
+}
+
+.dpad {
+    width: 60px;
+    height: 60px;
+    background: #222;
+    border-radius: 8px;
+}
+
+/* Painel direito */
+.right-panel {
+    background: #d62828;
+    width: 50%;
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+    position: relative;
+}
+
+.description {
+    background: black;
+    color: white;
+    padding: 15px;
+    line-height: 1.3em;
+    font-size: 14px;
+    border-radius: 6px;
+    height: 130px;
+}
+
+.grid {
+    margin: 20px auto;
+    width: 260px;
+    height: 80px;
+    background: #87cefa;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    border-radius: 4px;
+}
+
+.buttons-row {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px 10px;
+    font-size: 14px;
+}
+
+.bottom-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.big-btn {
+    padding: 10px;
+    flex: 1;
+}
+
+.camera-btn {
+    width: 50px;
+    height: 50px;
+    background: yellow;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
